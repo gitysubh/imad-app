@@ -18,7 +18,7 @@ var articles={
     },
     'article-two':{
         title:'Article two | Subhashis Pal',
-        date:'5 Aug, 2017',
+        date:'10 Aug, 2017',
         heading:'Article two',
         content:
         `   <p>This is Article one.This is Article two.This is Article two.This is Article two.This is Article two.</p>
@@ -28,7 +28,7 @@ var articles={
     'article-three':{
         heading:'Article three',
         title:'Article two | Subhashis Pal',
-        date:'5 Aug, 2017',
+        date:'15 Aug, 2017',
         content:
         `   <p>This is Article three.This is Article three.This is Article three.This is Article three.This is Article three.</p>
 			
