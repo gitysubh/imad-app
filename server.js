@@ -9,6 +9,7 @@ var articles={
     'article-one':{
         title:'Article One | Subhashis Pal',
         date:'5 Aug, 2017',
+        heading:'Article One',
         content:
         `   <p>This is Article one.This is Article one.This is Article one.This is Article one.This is Article one.</p>
 			<p>This is Article one.This is Article one.This is Article one.This is Article one.This is Article one.</p>
@@ -18,13 +19,14 @@ var articles={
     'artile-two':{
         title:'Article two | Subhashis Pal',
         date:'5 Aug, 2017',
+        heading:'Article two',
         content:
         `   <p>This is Article one.This is Article two.This is Article two.This is Article two.This is Article two.</p>
 			
         `
     },
     'article-three':{
-        
+        heading:'Article three',
         title:'Article two | Subhashis Pal',
         date:'5 Aug, 2017',
         content:
@@ -43,9 +45,28 @@ function createTemplate(data){
         <html>
             <head>  
                 <title>
-                    $(title)
+                    ${title}
                 </title>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="stylesheet" href="ui/style.css" />
             </head>
+            <body>
+                <div class="cointainer">
+                    <div>
+                        <a href="/">HOME</a>
+                    </div>
+                    </hr>
+                    <h3>
+                        ${heading}
+                    </h3>
+                    <div>
+                        ${date}
+                    </div>
+                    <div>
+                        ${content}
+                    </div>
+                </div>
+            </body>
         </html>
     `;
 }
