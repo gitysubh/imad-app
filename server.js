@@ -16,7 +16,7 @@ var articles={
 			<p>This is Article one.This is Article one.This is Article one.This is Article one.This is Article one.</p>
         `
     },
-    'artile-two':{
+    'article-two':{
         title:'Article two | Subhashis Pal',
         date:'5 Aug, 2017',
         heading:'Article two',
