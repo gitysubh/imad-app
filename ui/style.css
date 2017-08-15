@@ -28,7 +28,7 @@ body {
     height:100px;
     padding:2%;
 }
-#commentSubmit{
+#submitComment{
     padding:5px 10px;
     background:#ff5722;
 }
