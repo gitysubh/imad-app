@@ -1,5 +1,5 @@
-var submitComment = document.getElementById('submitComment');
-submitComment.onclick = function (){
+var submit = document.getElementById('submitComment');
+submit.onclick = function (){
     var commentTxt=document.getElementById('commentBox').value;
     var names = ['name1','name2','name3'];
     var list = '';
