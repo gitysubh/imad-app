@@ -29,6 +29,8 @@ body {
     padding:2%;
 }
 #submitComment{
-    padding:5px 10px;
+    padding:2% 5%;
     background:#ff5722;
+    border:none;
+    color:#fff;
 }
