@@ -1,5 +1,5 @@
 var submit = document.getElementById('submitComment');
-var names;
+var names=[];
 submit.onclick = function (){
     var commentTxt=document.getElementById('commentBox').value;
     names.push(commentTxt);
