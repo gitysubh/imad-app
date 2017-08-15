@@ -32,6 +32,9 @@ var comments = {
     'articletwo':[],
     'articlethree':[]
 }
+app.get('/getComment', function (req, res) {
+  
+});
 
 app.get('/:articleName',function(req,res){
     var articleName = req.params.articleName;
