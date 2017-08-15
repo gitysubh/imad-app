@@ -26,5 +26,9 @@ body {
     resize:none;
     width:300px;
     height:100px;
-    padding:2px;
+    padding:2%;
+}
+#commentSubmit{
+    padding:5px 10px;
+    background:#ff5722;
 }
