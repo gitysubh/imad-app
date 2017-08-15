@@ -7,6 +7,6 @@ submit.onclick = function (){
         list += '<li>' + names[i] + '</li>'
     }
     var ul = document.getElementById('commentList');
-    ul.innerHtml = list;
+    ul.innerHTML = list;
     
 };
